@@ -19,7 +19,7 @@ var y = 0;
 /**
  * How many cycles it should render per frame
  */
-const frameCycles = 1000;
+const frameCycles = 50;
 
 const step = 10;
 
