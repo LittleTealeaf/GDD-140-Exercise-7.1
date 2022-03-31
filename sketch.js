@@ -19,7 +19,7 @@ var y = 0;
 /**
  * How many cycles it should render per frame
  */
-const frameCycles = 100;
+const frameCycles = 1000;
 
 const step = 10;
 
@@ -38,5 +38,8 @@ function draw() {
             x = 0;
             y += step;
         }
+    }
+    if(y >= height) {
+        noLoop();
     }
 }
