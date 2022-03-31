@@ -30,7 +30,7 @@ function draw() {
     while(cycles < frameCycles && y < height) {
         while(cycles < frameCycles && x < width) {
             fill(img.get(x / imgScale,y / imgScale));
-            ellipse(x,y,step+100,step+50);
+            ellipse(x,y,step*3,step);
             cycles++;
             x+=step;
         }
